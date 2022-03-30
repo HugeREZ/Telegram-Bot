@@ -1,2 +1,2 @@
-# Clear_sps_bot
+# Telegram Bot
  Старый бот для Telegram
