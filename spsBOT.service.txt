@@ -1,0 +1,15 @@
+[Unit]
+Description=Telegram bot 'spsBOT'
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=?/Clear_sps_bot
+ExecStart=/usr/bin/python3 ?/spsBOT.py
+RestartSec=10
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target
